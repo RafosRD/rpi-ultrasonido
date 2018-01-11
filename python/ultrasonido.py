@@ -47,11 +47,11 @@ distancia = round(distancia, 2)            #Se redondea a dos decimales
 ancho = 22
 largo = 15
 
-volumen = ancho * largo * distancia
+volumen = ancho * largo * distancia * 0.001
 
 if distancia > 2 and distancia < 400:      #Comprueba si la distancia está dentro del rango
 
-  print "Volumen: ",volumen,"cm^3"       #Imprime la distancia
+  print "Volumen: ",volumen,"litros"       #Imprime la distancia
 
 else:
   print "Fuera de Rango"                   #Imprime fuera de rango
