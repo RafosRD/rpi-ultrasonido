@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/python/ultrasonido.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
-              <caret line="48" column="50" lean-forward="false" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+              <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -187,7 +187,7 @@
     <entry file="file://$PROJECT_DIR$/python/ultrasonido.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
-          <caret line="48" column="50" lean-forward="false" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
           <folding />
         </state>
       </provider>

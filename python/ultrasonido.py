@@ -46,7 +46,7 @@ distancia = t * (V/2)                      #Se multiplica la duración del pulso
 ancho = 22
 largo = 15
 
-volumen = ancho * largo * distancia * 0.001 - 4.32
+volumen = 4.32 - ancho * largo * distancia * 0.001
 volumen = round(volumen,2)                 #Se redondea a dos decimales
 
 
