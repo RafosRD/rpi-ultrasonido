@@ -42,12 +42,13 @@ while GPIO.input(ECHO)==1:                 #Comprueba si ECHO está en estado al
 t = pulse_end - pulse_start                #Se obtienen la duración del pulso, calculando la diferencia entre pulse_start  y pulse_end
 
 distancia = t * (V/2)                      #Se multiplica la duración del pulso, por 17150, para obetener la distancia
-distancia = round(distancia, 2)            #Se redondea a dos decimales
 
 ancho = 22
 largo = 15
 
 volumen = ancho * largo * distancia * 0.001
+volumen = round(volumen,2)                 #Se redondea a dos decimales
+
 
 if distancia > 2 and distancia < 400:      #Comprueba si la distancia está dentro del rango
 
